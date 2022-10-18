@@ -5,13 +5,16 @@
  */
 void print_alphabet_x10(void)
 {
-	int a, b;
+	char i, k;
 
-	for (a = 1; a < 1024; a++)
+	for (k = 0; k < 10; k++)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-				b += a;
+
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
 		}
-	printf("%d\n", b);
-	return (0);
+		_putchar('\n');
+	}
 }
+

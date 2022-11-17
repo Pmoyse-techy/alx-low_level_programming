@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char);
 void _puts_recursion(char *s);
@@ -13,3 +13,4 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 
 #endif
+

@@ -18,4 +18,3 @@ int _abs(int a)
 	absvalue = k;
 	return (absvalue);
 }
-

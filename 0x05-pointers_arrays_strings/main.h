@@ -13,4 +13,3 @@ char *_strcpy(char *dest, char *src);
 void puts2(char *str);
 int _atoi(char *s);
 #endif
-

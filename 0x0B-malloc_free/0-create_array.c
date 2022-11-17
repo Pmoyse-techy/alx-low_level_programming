@@ -19,3 +19,4 @@ char *create_array(unsigned int size, char c)
 		array[size] = c;
 	return (array);
 }
+
